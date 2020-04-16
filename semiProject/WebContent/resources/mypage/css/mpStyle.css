@@ -1,0 +1,529 @@
+
+/*---------------------
+    middle 영역
+-----------------------*/
+.middle{
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+/*---------------------
+    outer 영역
+-----------------------*/
+.outer{
+    margin-left: 0;
+    width:1800px;
+    text-align: center;
+}
+.divideBar {
+    width: 50px;
+    float:left;
+}
+
+/*---------------------
+    회원관리 영역 (로그인 / 회원가입)
+-----------------------*/
+.label.login {
+    text-align: center;
+}
+.contentBlock.contentBox.login {
+    height: 500px;
+    text-align: center;
+}
+.contentBlock.contentBox.login hr{
+    border: 1px solid lightgray;
+}
+.loginMainText {
+    font-family: 'Baloo Paaji 2', cursive;
+    margin-top: 1px;
+    height: 10px;
+}
+.userInsertTable {
+    margin:auto;
+}
+
+
+/* --------------
+    User Information
+----------------*/
+.mypage_home {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.label {
+    font-family: 'Baloo Paaji 2', cursive;
+    float: left;
+    height: 80px;
+    width: 1200px;
+    text-align:left;
+    margin-left:50px;
+    margin-top:50px;
+    display: block;
+}
+.contentBlock {
+    float:left;
+    width: 1200px;
+    height: 550px;
+    margin-left:50px;
+    text-align: center;
+}
+.contentBlock.contentBox {
+    border: 2px solid lightgray;
+    border-radius: 0.9em;
+    height: 500px;
+}
+
+.contentBlock.first {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 40%;
+    height: 250px;
+    text-align: center;
+}
+.imgTable {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+}
+.imgTable td {
+    width: 50%;
+}
+.imgTable tr:nth-child(1) {
+    height: 50%;
+}
+.imgTable tr:nth-child(2) {
+    height: 25%;
+}
+.imgTable tr:nth-child(3) {
+    height: 25%;
+}
+
+.contentBlock.second {
+    margin-left: 0px;
+    width: 60%;
+}
+
+.infoTable {
+    width: 600px;
+    height:450px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.infoTable td:nth-child(1) {
+    
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: left;
+    width: 100px;
+}
+.infoTable td:nth-child(2) {
+    text-align: left;
+    padding-left: 50px;
+}
+/* --------------
+    User Information Update
+----------------*/
+.updateTable.first {
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.updateTable.first tr:nth-child(odd){
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: left;
+    height: 5%;
+}
+
+.updateTable.first tr:nth-child(even) div, .updateTable.first tr:nth-child(even) input{
+    height: 40px;
+    width: 250px;
+}
+
+.updateTable.first tr:nth-child(8) input{
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+}
+.updateTable.first tr:nth-child(8) input:nth-child(1) {
+    margin-left: 0px;
+}
+
+.updateTable.second {
+    width: 400px;
+    height: 200px;
+    margin-top: 52px;
+    margin-left: 10px;
+    text-align: left;
+}
+.updateTable.second tr:nth-child(odd){
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: left;
+    height: 5%;
+}
+.updateTable.second tr:nth-child(even) input {
+    height: 40px;
+}
+.updateTable.second tr:nth-child(4) input {
+    width: 100px;
+}
+.updateTable.second tr:nth-child(4) button {
+    margin-bottom: 5px;
+}
+.updateTable.second tr:nth-child(6) input {
+    margin-top: 10px;
+}
+
+
+/* --------------
+    본인인증
+----------------*/
+.contentBlock.contentBox.checking {
+    border: 2px solid lightgray;
+    border-radius: 0.9em;
+    height: 350px;
+    text-align: left;
+}
+.checkingMsg, .checkingBack {
+    margin-left : 30px;
+}
+.checkingMsg h2{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 60%;
+}
+.checkingMsd h3{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.controlNotice {
+    color: rgb(173, 173, 173);
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+
+/*------------------
+  클리어테마
+---------------------*/
+.contentBlock.contentBox.clearThemeArea {
+    border: 2px solid lightgray;
+    border-radius: 0.9em;
+    height: 730px;
+}
+.selectOP {
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: left;
+}
+.clearBoard.ImgTable {
+    width: 98%;
+    box-sizing: border-box;
+    height: 680px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+}
+
+
+table.ImgTbl {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+}
+table.ImgTbl thead th {
+    padding: 10px;
+    width: 50px;
+    font-weight: bold;
+    height: 200px;
+    vertical-align: middle;
+    color: rgb(58, 51, 153);
+    border-bottom: 3px solid #036;
+}
+table.ImgTbl tbody th {
+    width: 10px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.ImgTbl td {
+    width: 10px;
+    line-height: 90%;
+    height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.ImgTbl tbody tr td:nth-child(odd) {
+    text-align: right;
+    width: 50px;
+}
+.ImgTbl tbody tr td:nth-child(even) {
+    text-align: left;
+}
+.clearThemePagingArea > button {
+        border-color: lightgray;
+        background-color: lightgray;
+}
+
+/*------------------
+게시판 이용 페이지들 (1:1문의 / 결제내역 / 리뷰관리 / 찜하기)
+-----------------*/
+.contentBlock.contentBox.forBoard {
+    border: 2px solid lightgray;
+    border-radius: 0.9em;
+    height: 730px;
+}
+.tabs {
+    font-size: 20px; line-height: 20px;
+    margin-top:20px
+}
+.tabs ul:before, .tabs ul:after {
+    content: "\0020"; display: block; height: 0; visibility: hidden;	
+} 
+.tabs ul:after { clear: both; }
+.tabs ul {
+    margin:0;
+    list-style:none;
+    padding: 0 6%;
+    border-bottom: 1px solid #e0e0e0;
+    zoom: 1;
+}
+
+.tabs ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+}
+.tabs ul li a {
+    background: #f6f6f6;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border: 1px solid #e0e0e0;
+    color: #909090;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.75);
+    padding: 6px 20px; margin: 0 10px -1px 0;
+    /* Border Radius */
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-decoration:none;
+}
+.tabs ul li a:hover {
+    border-color: #ccc;
+    color: #606060;
+}
+.tabs ul li.active a {
+    background: #fff;
+    border-color: #d4d4d4;
+    border-bottom: 1px solid #fff;
+    color: #dd390d;
+    margin-top: -4px;
+    padding-top: 10px;
+}
+.head{
+    margin:auto; 
+    margin-left: -15%;
+}
+
+/* 공지사항 내용 부분 CSS */
+
+#tablecontent a{
+    text-decoration:none;
+    color: black;
+}
+#tablecontent a:hover{
+    text-decoration:underline;
+}
+caption{
+    display:none; 
+    /*안보이게 설정, 화면에 보이지는 않지만 스크린리더리로 읽어짐.*/
+}
+.forBoardTable {
+    width:1000px;
+    border-collapse:collapse;
+    border-top:2px solid #8d8d8d;
+    height: 400px;
+    margin-left:-80px;
+}
+.forBoardTable th{
+    padding:10px 8px; padding: vertical horizontal;
+    background:#f9f9f9;
+    color:#666;
+    border-bottom:1px solid #8d8d8d;
+}
+#contentCategory{
+    letter-spacing: -2px;
+    width: 10%;
+}#contentTitle{
+    width: 30%;
+}
+#contentFull{
+    width: 30%;
+}
+#contentDate{
+    width: 10%;
+}
+#contentYN{
+    width: 30%;
+}
+.forBoardTable tr{
+    height: 50px;
+}
+.forBoardTable td{
+    padding:10px 8px; 
+    /* padding: vertical horizontal; */
+    line-height:.25em;
+    color:#666;
+    border-bottom:1px solid #8d8d8d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#tablecontent{
+    /* border: 1px solid red; */
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 15%;
+}
+#tablePage {
+    /* border:1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -15%;
+}
+#tablePage > button{
+    border-color: lightgray;
+    background-color: lightgray;
+}
+.searchWrap {
+    width: 100%;
+}
+.searchBar {
+    float:right;
+    width: 200px;
+    height: 30px;
+    margin-right: 100px;
+}
+.searchKey {
+    width: 85%;
+    height: 30px;
+    float:left;
+}
+.searchIcon {
+    float:left;
+    width:15%;
+    height: 30px;
+    background-color:lightgray;
+}
+
+/*------------------
+회원탈퇴
+-----------------*/
+.contentBlock.contentBox.signout {
+    border: 2px solid lightgray;
+    border-radius: 0em;
+    height: 500px;
+}
+.procedureBar {
+    background-color:lightgray;
+    text-align: left;
+}
+.procedureBar h1 {
+    margin-left: 50px;
+}
+.infoTable.signout {
+    margin-top: 100px;
+    height: 300px;
+}
+
+.infoTable.signout input{
+    width: 260px;
+}
+.info_content_area.leftSide {
+    float: left;
+}
+.info_content_area.leftSide input:nth-child(1){
+    width: 200px;
+}
+.info_content_area.leftSide input:nth-child(2){
+    width: 50px;
+}
+.signoutArea {
+    width: 100%;
+    height: 300px;
+}
+.Result {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+.contentBlock.contentBox.signoutResult hr {
+    border: 1px solid lightgray;
+}
+.signoutArea h3{
+    font-weight: 600;
+}
+.contentBlock.contentBox.signoutResult {
+    height: 350px;
+}
+
+/*------------------
+  글 작성용 (리뷰 등등)
+---------------------*/
+
+.contentBlock.contentBox.createData {
+    height: 750px;
+    width: 1000px;
+}
+
+.reviewTableArea {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.createDataTable {
+    width: 800px;
+    height: 550px;
+    text-align: left;
+}
+
+.createDataTable td:nth-child(1) {
+    width: 100px;
+    font-weight: 900;
+    height: 40px;
+}
+.createDataTable tr:nth-child(4) {
+    height: 300px;
+}
+.makeSelectBar {
+    width: 100px;
+}
+.createDataTable tr:nth-child(6) {
+    letter-spacing: -1px;
+}
+.makeBtnArea {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 800px;
+    height: 100px;
+}
+.makeBtnArea button:nth-child(1){
+    background-color: lightgray;
+    border-color: lightgray;
+}

@@ -1,0 +1,211 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    
+   
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css"/> 
+    <link rel="stylesheet" href="resources/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="resources/css/animate.css"/>
+    <link rel="stylesheet" href="resources/js/jquery-3.2.1.min.js"/>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+</head>
+<body>
+
+     <!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+    </div>
+ 
+  
+    <!-- Header Section-->
+    <header class="header-section">
+        <div class="container">
+            <!-- logo -->
+            <div class="logo">
+                <a class="site-logo" href="index.jsp">
+                    <img id="logo_yellow" src="resources/images/logo_yellow.svg" alt="">
+                </a>    
+            </div>
+			
+			<div class="user-panel">
+				<a href="views/mypage/mpMember/mpLogin.jsp" style="text-decoration: none;">Login / Register</a> 
+			</div>
+			<!-- responsive -->
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- site menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="">테마</a></li>
+					<li><a href="">지점소개</a></li>
+					<li><a href="">게시판</a></li>
+					<li><a href="">예약</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+    <!-- 헤더 끝 -->
+
+    	<!-- Latest news section -->
+	<div class="latest-news-section">
+		<div class="ln-title">Latest News</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">new</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+				<div class="nt-item"><span class="strategy">strategy</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
+				<div class="nt-item"><span class="racing">racing</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
+			</div>
+		</div>
+	</div>
+	<!-- Latest news section end -->
+
+
+
+    
+
+    <!-- 메인 섹션 -->
+    <section class="main-section">
+        <div class="container"> 
+           <div class="middle">
+                <table>
+                    <tr>
+                        <div class="mainlogo" align="center">
+                            <img id="logoMain" src="resources/images/logo_shadow.svg" onmouseover="this.src='resources/images/logoShadowHover.svg'" onmouseout="this.src='resources/images/logo_shadow.svg'">
+                            <p><button type="button" class="res btn btn-outline-light" style="opacity: 1;">예약하기</button>
+                            </p>
+                        </div>
+
+                        <br clear="both">
+                    </tr>
+                    
+                </table>
+                
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <!-- 메인2 -->
+    
+    <section class="main_propos">
+        <br clear="both">
+        <div class="container">
+            <div class="middle parShowing show" >
+                <div class="tit_top" >
+                   <br><br>
+                    <div class="feature_desc">
+                        각기 다른 테마의 방안에 갇힌 참가자가 되어 숨겨진 단서를 통해 <br>
+						<span>60분의 시간안에 공간을 탈출</span>하는 체험중심의 신개념 놀이문화 입니다.
+                    </div>
+                </div>
+                <div class="tit_bottom" align="center">
+                    <h1 class="feature_title" >전국 <span>55개 지점</span> 및 <span>60여개</span> 테마</h1>
+                    <br><br>
+                    <div class="feature_desc">
+                        <span>저희의 목적은 더욱 많은 분들에게 일상에서 느낄 수 없는 색다른 경험과<br>
+                        한번도 겪어본적 없는 종류의 즐거움을 제공하는 것입니다.</span><br><br>
+                        실화를 바탕으로한 살아있는 디테일과,<br>
+                        다양한 장치들로 이루어진 체계적인 문제해결 시스템은 <br>
+                        저희의 모토와 목적 실현의 단단한 기반입니다. <br><br>
+						저희는 특허중인 새로운 기술, 참신한 아이디어를 통해 다양한 연령층, 소비자를 만족시킬 수 있는<br>
+체험 문화를 선도해 가고 있습니다.<br><br>
+새로운 경험을 원하는 당신! 저희가 이루어드리겠습니다.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- 미들 3 -->
+    <section class="main_guide">
+        <div class="conteiner">
+            <div class="middle" align="center">
+                <h2 class="feature_title">Beginners Guide</h2>
+                <div class="row feature_desc">
+                    <div class="col s4 parShowing show" style="transform: matrix(1,0,0,1,0,0); opacity:1;">
+                        <img src="resources/images/guide_01.png" alt="">
+                        <p>"당신은 탐정이 되었습니다." <br>
+                            "제한된 시간안에 추리하고 범인을 잡으세요."
+                        </p>   
+                    </div>
+                    <div class="col s4 parShowing show" style="transform: matrix(1,0,0,1,0,0); opacity:1;">
+                        <img src="resources/images/guide_02.png" alt="">
+                        <p>"협동하고 빠르게 움직이십시오" <br>
+                            "역할을 분담하고 다양한 관점에서 도전하십시오/"
+                        </p>   
+                    </div>
+                    <div class="col s4 parShowing show" style="transform: matrix(1,0,0,1,0,0); opacity:1;">
+                        <img src="resources/images/guide_03.png" alt="">
+                        <p>"출생의 비밀, 반전, 범죄의 사연등을 캐치하고" <br>
+                            "탈출하시면서 한편의 영화속을 느끼실 겁니다."
+                        </p>   
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+      <!-- Footer section -->
+      <section class="footer-section">
+        <div class="container">
+            <div class="footerTop">
+                <div class="footerTop_1">
+                    <ul>
+                        <li><a href="">개인정보취급방침</a></li> &nbsp; | &nbsp;  
+                        <li><a href="">이용약관</a></li> &nbsp; | &nbsp;  
+                        <li><a href="">지점소개</a></li> &nbsp; | &nbsp;  
+                        <li><a href="">프랜차이즈 가맹문의</a></li>
+                    </ul>
+                </div>
+                <div id="ftTop">
+                    <a href="">BACK TO TOP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bottom">
+        <div class="container">
+            <div class="ftlogo">
+                    <img src="resources/images/logo_yellow.svg" alt="">
+            </div>
+            <div class="info">
+                 <p>
+                        상호명 KH 주소 서울특별시 강남구 테헤란로14길 6 <br>
+                        (주)RoomEscape 사업자등록번호 123-45-67890 <br>
+                        대표전화 1800.0000 / Emai roomEscape@naver.com <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--====== Javascripts & Jquery ======-->
+	<script src="resources/js/jquery-3.2.1.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/owl.carousel.min.js"></script>
+	<script src="resources/js/jquery.marquee.min.js"></script>
+	<script src="resources/js/main.js"></script>
+</body>
+</html>

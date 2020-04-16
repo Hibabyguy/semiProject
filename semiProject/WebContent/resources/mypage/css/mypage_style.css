@@ -1,0 +1,776 @@
+
+/*---------------------------*/
+/* Template default CSS
+/*---------------------------*/
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    background-repeat: repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 500;
+	color: #131313;
+}
+
+h1 {
+    font-size: 70px;
+    color:lightgray
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    
+}
+
+p {
+	font-size: 14px;
+	color: #878787;
+	line-height: 1;
+}
+
+
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+    outline: none;
+}
+
+
+/*------------------
+  Header section
+---------------------*/
+
+.header-section {
+    background: #131313;
+	clear: both;
+	overflow: hidden;
+	padding: 18px 0;
+	border-bottom: 3px solid #ffb320;
+}
+
+.logo{
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+    margin: auto;
+
+}
+
+.user-panel {
+	float: right;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+    border-radius: 30px;
+    
+}
+.user-panel>a{
+  
+	font-size: 14px;
+    color: #131313;
+}
+.main-menu {
+	float: right;
+	margin-right: 100px;
+}
+.main-menu ul {
+	list-style: none;
+}
+
+.main-menu ul li {
+    display: inline;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 35px;
+	font-weight: 500;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
+.main-menu ul li a:hover {
+	color: #ffb320;
+}
+.header-btn {
+	float: right;
+	margin-right: 0;
+}
+
+.nav-switch {
+	display: none;
+}
+
+
+
+/*----------------------
+  Footer top Section
+------------------------*/
+.footer-bottom{
+    background-image: url("../../resources/images/pattern.png");
+    background-repeat: repeat;
+    padding: 10px 0;
+    height: 15%;
+    overflow: hidden;
+}
+.footer-section {
+	padding: 10px 0 5px;
+	overflow: hidden;
+    background: #252525;
+    vertical-align: middle;
+    clear:both;
+}
+.footerTop_1{
+    
+    overflow: hidden;
+    font-size: 12px;
+    color:white;
+    display: inline-block;
+}
+.footerTop ul{ 
+    list-style-type: none;
+    margin:auto;
+}
+.footerTop li{ 
+    display: inline;
+    vertical-align: middle;
+}
+.footerTop a{
+    text-decoration: none;
+    color:white;
+}
+#ftTop{
+    float: right;
+    font-size: small;
+    
+}
+.ftlogo {
+    width: 20%;
+    display: inline-block;
+}
+.info{
+   display: inline-block;
+}
+.info p{
+    color: lightgray;
+    font-size: small;
+    font-weight: 100;
+
+}
+.ftlogo img{
+    width: 60px;
+    height: 55px;
+    margin-bottom: 50px;
+}
+
+
+/*---------------------
+    middle 영역
+-----------------------*/
+.middle{
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+
+/*---------------------
+    outer 영역
+-----------------------*/
+.outer{
+    margin-left: 0;
+    width:1800px;
+    text-align: center;
+    
+}
+
+
+
+/* --------------
+    회원정보
+----------------*/
+.mypage_home hr {
+    height: 2px;
+    color: orangered;
+    background-color: orangered;
+    border: none;
+    width: 100%;
+}
+
+.mypage_home {
+    margin-left:10px;
+    background: white; 
+    height: 700px; 
+    width:1000px; 
+    float:left;
+    letter-spacing: 8px; 
+    font-family: 'Noto Sans KR', Arial, sans-serif; 
+    font-weight: 800; 
+    padding: 0 0 10% 0; 
+    color: #8a8a8a; 
+    border-bottom: none;
+    text-align: left; 
+    font-size: 16px; 
+    line-height: 30px; 
+    color: black; 
+    padding-top: 0px;
+}
+
+.mypage_info {
+    text-align: left;
+}
+.info_header {
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 20px;
+}
+.info_label {
+    margin-left: 10px;
+    font-size: 19px;
+	color: black;
+	line-height: 1;
+}
+.info_content {
+    text-align: left;
+    margin-left:30px;
+    margin-top: 10px;
+    width: 410px;
+    float: left;
+}
+.info_table {
+    font-family: 'Nanum Gothic Coding', monospace;
+    width: 400px;
+    height:450px;
+
+}
+
+.info_table td {
+    padding: 7px;
+}
+.info_content2 {
+    text-align: left;
+    margin-left:30px;
+    margin-top: 10px;
+    width: 400px;
+    height:200px;
+    float: left;
+}
+.info_label2 {
+    margin-left: 30px;
+    font-size: 19px;
+	color: black;
+	line-height: 1;
+}
+.border_line {
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    border-radius: 0.9em;
+}
+.info_content2 .introduce_area {
+    
+    height: 180px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info_content3 {
+    text-align: left;
+    margin-left:30px;
+    margin-top: 40px;
+    width: 400px;
+    height:200px;
+    float: left;
+}
+
+.info_content3 .theme_area {
+    height: 170px;
+    font-size: 13px;
+}
+.theme_area_content {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.theme_area_content td {
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    font-weight: 300;
+}
+.updateBtnArea {
+    clear: both;
+    text-align: center;
+}
+
+
+
+/*------------------
+  updateCheck
+---------------------*/
+.mypage_updateCheck hr {
+    height: 2px;
+    color: orangered;
+    background-color: orangered;
+    border: none;
+    width: 100%;
+}
+
+/*------------------
+  예약확인
+---------------------*/
+
+.mypage_reserv { background: white; height: 700px; width:900px; float:left;}
+.mypage_reserv { letter-spacing: 8px; font-family: 'Noto Sans KR', Arial, sans-serif; font-weight: 800; padding: 0 0 10% 0; color: #8a8a8a; border-bottom: none;}
+.mypage_reserv { text-align: center; font-size: 16px; line-height: 30px; color: black; padding-top: 30px; }
+.mypage_reserv { padding-top: 0px; }
+.mypage_reserv { padding-top: 0px; }
+
+.mypage_reserv hr {
+    height: 2px;
+    color: orangered;
+    background-color: orangered;
+    border: none;
+    width: 100%;
+}
+
+.reserv_info_header {
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mypage_reservationCheck {
+    text-align: left;
+}
+.searchThemeArea {
+    height: 40px;
+    width: 620px;
+    margin-left: 140px;
+    padding-right: 0px;
+}
+.searchThemeArea > input {
+    height: 100%;
+    box-sizing: border-box;
+}
+.searchTheme {
+    width: 350px;
+}
+.btnline {
+    width: 95%;
+    box-sizing: border-box;
+    line-height: 100px;
+    padding: 0px 25px;
+}
+.btnline>.btn.btn-secondary {
+    background-color: lightgray;
+    border-color: lightgray;
+    vertical-align: middle;
+    color: rgba(36, 33, 33, 0.767);
+}
+.dateArea {
+    float: right;
+    margin-top: 3px;
+}
+.searchDate {
+    height: 36px;
+    width: 170px;
+}
+
+.reservBoard {
+    width: 98%;
+    box-sizing: border-box;
+    height: 380px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+}
+table.type09 thead th {
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgb(58, 51, 153);
+    border-bottom: 3px solid #036;
+    background-color: lightgray;
+}
+
+table.type09 tbody th {
+    width: 10px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 td {
+    width: 10px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/*------------------
+  리뷰테이블 전용테이블
+---------------------*/
+.likeBoard {
+    width: 98%;
+    box-sizing: border-box;
+    height: 380px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+}
+.likeBoard table thead tr> th:nth-child(3n) {
+    width: 240px;
+}
+.even.faq {
+    width: 200px;
+}
+.likeBoard.faqBoard td{
+    letter-spacing: 0px;
+}
+
+table.rvtype09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+}
+table.rvtype09 thead th {
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgb(58, 51, 153);
+    border-bottom: 3px solid #036;
+    background-color: lightgray;
+    letter-spacing: -1px;
+}
+
+table.rvtype09 tbody th {
+    width: 10px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.rvtype09 td {
+    width: 10px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/*------------------
+  다시 공용테이블
+---------------------*/
+
+.reservFbody {
+    width: 95%;
+    line-height: 50px;
+    margin-left: 25px;
+    height: 50px;
+    text-align: center;
+}
+
+/*------------------
+  1:1문의
+---------------------*/
+.QTsearchThemeArea {
+    height: 40px;
+    width: 620px;
+    margin-left: 200px;
+    padding-right: 0px;
+}
+
+.faqDirector {
+    float: right;
+    margin-top: 3px;
+    margin-left: -50px;
+}
+
+.QTBoard {
+    width: 98%;
+    box-sizing: border-box;
+    height: 380px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+}
+
+
+table.obotype09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+}
+table.obotype09 thead th {
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgb(58, 51, 153);
+    border-bottom: 3px solid #036;
+    background-color: lightgray;
+}
+table.obotype09 tbody th {
+    width: 10px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.obotype09 td {
+    width: 10px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.pagingArea {
+    margin-top: -20px;;
+}
+
+.btn.btn-primary.btn-sm {
+    border-color: lightgray;
+    background-color: lightgray;
+}
+
+/*------------------
+  FAQ
+---------------------*/
+.faqsearchThemeArea {
+    height: 40px;
+    width: 650px;
+    margin-left: 200px;
+    padding-right: 0px;
+}
+
+.oboDirector {
+    float: right;
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+/*------------------
+  본인인증
+---------------------*/
+.mypage_home.checking {
+    height:800px;
+}
+.info_header.checking {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+.boldTxt{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.boldTxt h1 {
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.checkingMsg h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 60%;
+}
+.checkingOuter{
+    margin-left: 30px;
+}
+.controlNotice {
+    color: rgb(173, 173, 173);
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+.checkingMsd h3{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/*------------------
+  클리어테마
+---------------------*/
+.mypage_reserv.clearThemeArea {
+    height: 1000px;
+}
+.selectOP {
+    margin-left: 30px;
+}
+.reservBoard.ImgTable {
+    width: 98%;
+    box-sizing: border-box;
+    height: 680px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+}
+
+
+table.ImgTbl {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+}
+table.ImgTbl thead th {
+    padding: 10px;
+    width: 50px;
+    font-weight: bold;
+    height: 200px;
+    vertical-align: middle;
+    color: rgb(58, 51, 153);
+    border-bottom: 3px solid #036;
+}
+table.ImgTbl tbody th {
+    width: 10px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.ImgTbl td {
+    width: 10px;
+    line-height: 90%;
+    height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.ImgTbl tbody tr td:nth-child(odd) {
+    text-align: right;
+    width: 50px;
+}
+.ImgTbl tbody tr td:nth-child(even) {
+    text-align: left;
+}
+
+
+/*------------------
+  Feature Section
+---------------------*/
+
+.feature-item {
+	height: 415px;
+	position: relative;
+}
+
+.feature-item:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: .65;
+}
+
+.feature-item .cata {
+	position: relative;
+	margin-top: 28px;
+	margin-left: 29px;
+	z-index: 3;
+}
+
+.feature-item .fi-content {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 0 26px 24px;
+	z-index: 2;
+}
+
+.feature-item .fi-content h5 {
+	margin-bottom: 18px;
+}
+
+.feature-item .fi-content .fi-comment {
+	font-size: 12px;
+	opacity: .54;
+}
+
+

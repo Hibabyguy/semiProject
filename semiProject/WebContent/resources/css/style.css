@@ -1,0 +1,401 @@
+
+/*---------------------------*/
+/* Template default CSS
+/*---------------------------*/
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 500;
+	color: #131313;
+}
+
+h1 {
+    font-size: 70px;
+    color:lightgray
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    
+}
+
+p {
+	font-size: 14px;
+	color: #878787;
+	line-height: 1;
+}
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+    outline: none;
+}
+
+/*------------------
+  Header section
+---------------------*/
+
+.header-section {
+    background: #131313;
+	clear: both;
+	overflow: hidden;
+	padding: 18px 0;
+	border-bottom: 3px solid #ffb320;
+}
+
+.logo{
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+    margin: auto;
+
+}
+
+.user-panel {
+	float: right;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+    border-radius: 30px;
+    
+}
+.user-panel>a{
+  
+	font-size: 14px;
+    color: #131313;
+}
+.main-menu {
+	float: right;
+	margin-right: 100px;
+}
+.main-menu ul {
+	list-style: none;
+}
+
+.main-menu ul li {
+    display: inline;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 35px;
+	font-weight: 500;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
+.main-menu ul li a:hover {
+	color: #ffb320;
+}
+.header-btn {
+	float: right;
+	margin-right: 0;
+}
+
+.nav-switch {
+	display: none;
+}
+
+
+/*----------------------
+  Footer top Section
+------------------------*/
+.footer-bottom{
+    background-image: url("../../resources/images/pattern.png");
+    background-repeat: repeat;
+    padding: 10px 0;
+    height: 15%;
+    overflow: hidden;
+
+
+}
+.footer-section {
+	padding: 10px 0 5px;
+	overflow: hidden;
+    background: #252525;
+    vertical-align: middle;
+   
+}
+.footerTop_1{
+    
+    overflow: hidden;
+    font-size: 12px;
+    color:white;
+    display: inline-block;
+
+}
+.footerTop ul{ 
+    list-style-type: none;
+    margin:auto;
+}
+.footerTop li{ 
+    display: inline;
+    vertical-align: middle;
+}
+.footerTop a{
+    text-decoration: none;
+    color:white;
+}
+#ftTop{
+    float: right;
+    font-size: small;
+    
+}
+.ftlogo {
+    width: 20%;
+    display: inline-block;
+}
+.info{
+   display: inline-block;
+}
+.info p{
+    color: lightgray;
+    font-size: small;
+    font-weight: 100;
+
+}
+
+.ftlogo img{
+    width: 60px;
+    height: 55px;
+    margin-bottom: 50px;
+}
+
+/*---------------------
+    메인 섹션
+-----------------------*/
+.main-section{
+    width: 100%;
+    height: 874px;
+    background: url("../../resources/images/mainTop.png");
+    background-size: cover;
+}
+#logoMain{
+    transform: scale(0.5);
+    margin:0;
+    box-sizing: content-box;
+    position: relative;
+}
+.mainlogo p{
+    margin:0;
+    padding: 0;
+}
+
+#reseveBtn{
+    box-sizing: border-box;
+    margin:0;
+    position: absolute;
+    top:0;
+    bottom:0
+}
+
+/* --------------
+    미들 2
+----------------*/
+.main_propos{
+    width: 100%;
+    height: 800px;
+    background: url("../../resources/images/photo-exit.jpg.png");
+    background-size: cover;
+    position: relative;
+}
+.main_propos .feature_desc span { color: #fac05a; }
+.feature_title span { color: #fac05a; font-weight: bold; }
+
+.feature_desc{
+   
+    color: lightgray;
+    max-width: 100%;
+    text-align: center;
+    margin:0;
+  
+}
+.tit_bottom { margin:auto; position: absolute; bottom: 10%; left:0; right: 0; width: 100%; }
+.feature_title{
+    line-height: 80px; 
+    border-bottom: 1px solid #fac05a;
+    display: inline-block; 
+    color: lightgray;
+    max-width: 100%;
+    text-align: center;
+    margin:0;
+    box-sizing:content-box
+  
+}
+.tit_bottom .feature_desc{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    
+    
+}
+
+
+
+/*---------------------
+  Latest News section
+-----------------------*/
+
+.latest-news-section {
+	overflow: hidden;
+	display: block;
+	clear: both;
+	background: #131313;
+	padding: 24px 0;
+	position: relative;
+}
+
+.ln-title {
+	position: absolute;
+	height: 100%;
+	width: 29%;
+	left: 0;
+	top: 0;
+	text-align: right;
+	padding-top: 24px;
+	padding-right: 66px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	background: #ffb320;
+	z-index: 1;
+}
+
+.news-ticker {
+	width: 71%;
+	float: right;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.news-ticker-contant .nt-item {
+	margin-right: 35px;
+	color: #fff;
+	display: inline-block;
+}
+
+.news-ticker-contant .nt-item span {
+	margin-right: 35px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	color: #fff;
+	padding: 4px 20px;
+}
+
+.news-ticker-contant .nt-item span.new {
+	background: #ff205f;
+}
+
+.news-ticker-contant .nt-item span.strategy {
+	background: #4eae60;
+}
+
+.news-ticker-contant .nt-item span.racing {
+	background: #694eae;
+}
+
+/*------------------
+  Feature Section
+---------------------*/
+
+.feature-item {
+	height: 415px;
+	position: relative;
+}
+
+.feature-item:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: .65;
+}
+
+.feature-item .cata {
+	position: relative;
+	margin-top: 28px;
+	margin-left: 29px;
+	z-index: 3;
+}
+
+.feature-item .fi-content {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 0 26px 24px;
+	z-index: 2;
+}
+
+.feature-item .fi-content h5 {
+	margin-bottom: 18px;
+}
+
+.feature-item .fi-content .fi-comment {
+	font-size: 12px;
+	opacity: .54;
+}
+
+/* -----------
+미들3
+-------------*/
+.main_guide { background: rgb(241, 241, 238); height: 600px; }
+.main_guide .feature_title { letter-spacing: 8px; font-family: 'Noto Sans KR', Arial, sans-serif; font-weight: 800; padding: 0 0 10% 0; color: #8a8a8a; border-bottom: none;}
+.main_guide .feature_desc { text-align: center; font-size: 16px; line-height: 30px; color: #bdbdbd; padding-top: 30px; }
+.main_guide .feature_desc p { padding-top: 30px; }

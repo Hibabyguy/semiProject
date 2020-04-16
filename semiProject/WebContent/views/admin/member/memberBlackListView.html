@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Admin</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../../resources/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../../resources/admin/css/sb-admin-2.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link href="../../../resources/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <br><br>
+  <!-- Page Heading -->
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">블랙리스트</h1>
+  </div>
+
+  <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+      <!-- Begin Page Content -->
+      <div class="container-fluid">
+
+        <div id="top">
+          <!--  Search -->
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="회원ID,이름 검색"
+                aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <button class="btn btn-primary" style="float: right;">탈퇴</button>
+        </div>
+
+        <br>
+        <hr>
+        <!-- Begin table  -->
+        <div class="Memtable">
+          <table class="table table-bordered table-hover table-sm" width="100%" cellspacing="0">
+            <thead>
+              <tr>
+                <th width="2" style="text-align: center;">
+                  <div class="">
+                    <label><input class="checkbox " type="checkbox" name="" value="" style="vertical-align: middle; transform: scale(1.4);" disabled></label>
+                  </div>
+                </th>
+                <th>회원번호</th>
+                <th>타입</th>
+                <th>ID</th>
+                <th>닉네임</th>
+                <th>이름</th>
+                <th>생년월일</th>
+                <th>이메일</th>
+                <th>전화번호</th>
+                <th>가입일</th>
+                <th>탈퇴일</th>
+                <th>신고횟수</th>
+                <th>블랙리스트</th>
+                <th>상태</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <tr>
+                  <td style="text-align: center;">
+                    <div class="">
+                      <label><input class="checkbox " type="checkbox" name="" value="" style="vertical-align: middle; transform: scale(1.4);"></label>
+                    </div>
+                  </td>
+                <td>회원번호</td>
+                <td>타입</td>
+                <td>ID</td>
+                <td>닉네임</td>
+                <td>이름</td>
+                <td>생년월일</td>
+                <td>이메일</td>
+                <td>전화번호</td>
+                <td>가입일</td>
+                <td>탈퇴일</td>
+                <td>신고횟수</td>
+                <td>블랙리스트</td>
+                <td>상태</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!-- 페이징 -->
+          <div class="" id="">
+            <ul class="pagination justify-content-center">
+              <li class="paginate_button page-item previous" id="">
+                <a href="#" class="page-link">Previous</a>
+              </li>
+              <li class="paginate_button page-item" id="">
+                <a href="#" class="page-link">1</a>
+              </li>
+              <li class="paginate_button page-item" id="">
+                <a href="#" class="page-link">2</a>
+              </li>
+              <li class="paginate_button page-item" id="">
+                <a href="#" class="page-link">3</a>
+              </li>
+              <li class="paginate_button page-item" id="">
+                <a href="#" class="page-link">4</a>
+              </li>
+              <li class="paginate_button page-item next" id="">
+                <a href="#" class="page-link">Next</a>
+              </li>
+            </ul>
+          </div>
+          <!-- 페이징끝  -->
+
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+    </div>
+  </div>
+
+
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="../../../resources/admin/vendor/jquery/jquery.min.js"></script>
+  <script src="../../../resources/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="../../../resources/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../../../resources/admin/js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../../../resources/admin/vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../../../resources/admin/js/demo/chart-area-demo.js"></script>
+  <script src="../../../resources/admin/js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>

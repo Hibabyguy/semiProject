@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- Favicon -->   
+	<link href="../../resources/images/reserv/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../../resources/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../../resources/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../../resources/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="../../resources/css/yunstyle.css"/>
+    
+    <style>
+        body{
+            background-image: url(../../resources/images/reserv/back_yj.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+   
+    
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a class="site-logo" href="index.html">
+				<img src="../../resources/images/reserv/logo.png" alt="">
+			</a>
+			<div class="user-panel">
+				<a href="#">Login</a>  /  <a href="#">Register</a>
+			</div>
+			<!-- responsive -->
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- site menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index.html">테마</a></li>
+					<li><a href="review.html">지점소개</a></li>
+					<li><a href="categories.html">게시판</a></li>
+					<li><a href="community.html">예약하기</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+
+
+
+
+
+        <h1 id=yj_title>예약확인</h1>
+        <p id=yj_title2>RESERVATION</p>
+        
+        <div class=line></div>
+        
+
+
+
+
+
+
+
+	<section style=" text-align: center;">
+		<div class="inner container">
+			<div style="margin-bottom: 30px;">
+				<h2 id="yj_ex" >예약 정보 입력</h2>
+				<h3>셜록홈즈에서는 예약후 24시간 이전에만 환불되며 그후에 예약취소, <br/>미방문 시에는 예약금이 환불되지않습니다.</h3>
+				<p>( 입금 후 카카오톡, 게시판, 전화 등으로 지점별 입금확인 요청 부탁드립니다. )</p>
+			</div>
+
+			<form method="post" action="" name="" style="margin-left: 220px;">
+			<input type="hidden" name="Mode" value="confirmReservation">
+			<div class="write_form" >
+				<table style= "width: 700px; height: 123px; border-top: 1px dashed #e6950c;">
+        
+					<body>
+						<tr>
+							<th style="background-color: whitesmoke; border-bottom: 1px dashed gray ">예약자</th>
+							<td style=" border-bottom: 1px dashed gray"><input type="text" class="ipt gray" name="name" id="name"></td>
+						</tr>
+						<tr style=" border-bottom: 1px dashed gray">
+							<th style="background-color: whitesmoke; ">연락처</th>
+							<td >
+								<select class="gray" name="phone1" id="phone1" >
+																	<option value="010">010</option>
+																	<option value="011">011</option>
+																	<option value="016">016</option>
+																	<option value="017">017</option>
+																	<option value="018">018</option>
+																	<option value="019">019</option>
+																</select>
+								<input type="text" class="ipt gray numField" name="phone2" id="phone2" style="width:48px;" maxlength="4">
+								<input type="text" class="ipt gray numField" name="phone3" id="phone3" style="width:48px;" maxlength="4">
+							</td>
+						</tr>
+					</body>
+				</table>
+				<div class="em"    style="color: #e6950c; margin-top: 10px; margin-right: 100px;" >* 예약시 등록한 정보를 입력하면 예약조회가 가능합니다.</div>
+			</div>
+			<div class="btn_group center">
+				<button type="submit" class="btn gray"style="color:#fff; background-color: #5b5b5b; margin-right: 100px; " >예약조회</button>
+			</div>
+			</form>
+
+		</div>
+	</section>
+</body>
+</html>

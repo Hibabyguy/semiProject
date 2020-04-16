@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- Favicon -->   
+	<link href="../../resources/images/reserv/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../../resources/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../../resources/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../../resources/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="../../resources/css/yunstyle.css"/>
+
+
+
+</head>
+<body>
+
+    <style>
+        body{
+            background-image: url(../../resources/images/reserv/back_yj.jpg);
+           
+            background-size:cover;
+
+		}
+		#textButton{
+			margin-bottom: 30px;
+		}
+
+
+		#rC{
+			color:black;
+			text-decoration: none;
+			font-weight: 1000;
+			margin-bottom: 30px;
+		}
+		#rC2{
+			color:black;
+			text-decoration: none;
+			font-weight: 1000;
+		}
+
+
+		div.box {
+		width: 900px;	
+		height: 50px;
+		box-align: center middle;		
+		margin: 10px;
+		padding: 10px;
+		
+		display: none;
+    }
+	
+	#dateBox{
+		margin-left: 350px;
+		
+	}
+
+
+    .yun.test2{
+		cursor: pointer;
+        display:inline-block;
+        border:1px solid black;
+        background: #f8c63eb0;
+        width:200px;
+        height:60px;
+        text-align: center;
+        padding-top: 10px;
+        margin: 5px;
+		color:rgb(179, 110, 21);}
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+   
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a class="site-logo" href="index.html">
+				<img src="../../resources/images/reserv/logo.png" alt="">
+			</a>
+			<div class="user-panel">
+				<a href="#">Login</a>  /  <a href="#">Register</a>
+			</div>
+			<!-- responsive -->
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- site menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index.html">테마</a></li>
+					<li><a href="review.html">지점소개</a></li>
+					<li><a href="categories.html">게시판</a></li>
+					<li><a href="community.html">예약하기</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+
+<section id="content_area" style="text-align: center; ">
+<h1 id=yj_title>예약하기</h1>
+<p id=yj_title2>RESERVATION</p>
+
+<div class=line></div>
+
+<div id="textButton"> 
+	<a href="" id="rC">예약확인</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="" id="rC2">예약취소</a>
+</div>
+<div class="selectArea">
+
+	<!--현대극장 선택시 지역선택 노출 없음 -->
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+                
+    <select id="selectArea">
+        <option value="" style="width: 200px;">지역선택</option>
+                                <option value="1" >서울시</option>
+								<option value="9" >경기도</option>
+								<option value="9" >강원도</option>
+								
+                               
+                              
+                        </select>
+    
+    
+						
+		<select name="category" onclick="showDiv(this);"  id="date"><label for="date">날짜</label>&nbsp; &nbsp; 
+        
+            <option value="">지점선택</option>
+                                <option value="1" >강남1호점</option>
+                                <option value="9" >분당점</option>
+                                <option value="9" >잠실점</option>
+								<option value="9" >동탄점</option>
+								<option value="9" >강릉점</option>
+                               
+                              
+                        </select>
+						
+                    
+    <!--현대극장 선택시 지역선택 노출 없음 -->
+                    
+    <span class="date">
+        <input type="date" name="res_date" id="res_date" class="ipt black" >
+       
+    </span>
+</div>
+</div>
+</section>
+
+
+<section class="select_branch_img">
+<div class="inner container">
+	<img src="../../resources/images/reserv/timg.png">
+</div>
+</section>
+
+<section class="res_list">
+
+</section>
+</div>
+
+
+<div id="dateBox" class="box">
+
+	
+		
+	<div class="time"><b style="font-size: larger;">혼:원혼의 저주</b>&nbsp;&nbsp;<a href="">자세히보기</a><br>
+		<p>난이도:☆☆☆&nbsp;&nbsp;&nbsp;공포도 :☆☆☆ &nbsp;&nbsp;&nbsp; 인원:&nbsp;2~6&nbsp;</p>
+		<div class="yun test2" onclick="location.href='목적지 링크주소(URL)'">13:15<br>예약가능</div>
+		<div class="yun test2">14:30<br>예약가능</div>
+		<div class="yun test2">15:45<br>예약가능</div>
+		<div class="yun test2">17:00<br>예약가능</div>
+		<div class="yun test2">18:15<br>예약가능</div>
+		<div class="yun test2">19:30<br>예약가능</div>
+		<div class="yun test2">20:45<br>예약가능</div>
+		<div class="yun test2">22:00<br>예약가능</div>
+		<br><br><br><br>
+		
+		</div>
+		<div class="time"><b style="font-size: larger;">기억을 걷는 시간</b>&nbsp;&nbsp;<a href="">자세히보기</a><br>
+			<p>난이도:☆☆☆&nbsp;&nbsp;&nbsp;공포도 :☆☆☆ &nbsp;&nbsp;&nbsp; 인원:&nbsp;2~6&nbsp;</p>
+			<div class="yun test2">13:15<br>예약가능</div>
+			<div class="yun test2">14:30<br>예약가능</div>
+			<div class="yun test2">15:45<br>예약가능</div>
+			<div class="yun test2">17:00<br>예약가능</div>
+			<div class="yun test2">18:15<br>예약가능</div>
+			<div class="yun test2">19:30<br>예약가능</div>
+			<div class="yun test2">20:45<br>예약가능</div>
+			<div class="yun test2">22:00<br>예약가능</div>
+			<br><br><br><br>
+			
+			</div>
+			<div class="time"><b style="font-size: larger;">마법사의 세계</b>&nbsp;&nbsp;<a href="">자세히보기</a><br>
+				<p>난이도:☆☆☆&nbsp;&nbsp;&nbsp;공포도 :☆☆☆ &nbsp;&nbsp;&nbsp; 인원:&nbsp;2~6&nbsp;</p>
+				<div class="yun test2">13:15<br>예약가능</div>
+				<div class="yun test2">14:30<br>예약가능</div>
+				<div class="yun test2">15:45<br>예약가능</div>
+				<div class="yun test2">17:00<br>예약가능</div>
+				<div class="yun test2">18:15<br>예약가능</div>
+				<div class="yun test2">19:30<br>예약가능</div>
+				<div class="yun test2">20:45<br>예약가능</div>
+				<div class="yun test2">22:00<br>예약가능</div>
+				<br><br><br><br>
+				
+				</div>
+				<div class="time"><b style="font-size: larger;">반고흐의 방</b> &nbsp;&nbsp;<a href="">자세히보기</a><br>
+					<p>난이도:☆☆☆&nbsp;&nbsp;&nbsp;공포도 :☆☆☆ &nbsp;&nbsp;&nbsp; 인원:&nbsp;2~6&nbsp;</p>
+					<div class="yun test2">13:15<br>예약가능</div>
+					<div class="yun test2">14:30<br>예약가능</div>
+					<div class="yun test2">15:45<br>예약가능</div>
+					<div class="yun test2">17:00<br>예약가능</div>
+					<div class="yun test2">18:15<br>예약가능</div>
+					<div class="yun test2">19:30<br>예약가능</div>
+					<div class="yun test2">20:45<br>예약가능</div>
+					<div class="yun test2">22:00<br>예약가능</div>
+					<br><br><br>
+					
+					</div>
+					<div class="time"><b style="font-size: larger;">호텔:사라진 다이아몬드</b> &nbsp;&nbsp;<a href="">자세히보기</a><br>
+						<p>난이도:☆☆☆&nbsp;&nbsp;&nbsp;공포도 :☆☆☆ &nbsp;&nbsp;&nbsp; 인원:&nbsp;2~6&nbsp;</p>
+						<div class="yun test2">13:15<br>예약가능</div>
+						<div class="yun test2">14:30<br>예약가능</div>
+						<div class="yun test2">15:45<br>예약가능</div>
+						<div class="yun test2">17:00<br>예약가능</div>
+						<div class="yun test2">18:15<br>예약가능</div>
+						<div class="yun test2">19:30<br>예약가능</div>
+						<div class="yun test2">20:45<br>예약가능</div>
+						<div class="yun test2">22:00<br>예약가능</div>
+						<br>
+						
+						</div>
+		
+		</div>
+		
+		<script>
+		
+			function showDiv(element){
+				var tag = document.getElementsByClassName("box");
+				
+				for(var i=0 ; i<tag.length ; i++){
+					if(element.id+"Box" == tag[i].id)
+						tag[i].style.display = "block";
+					else
+						tag[i].style.display = "none";
+				}
+	
+			}
+		  </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
